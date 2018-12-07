@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <getopt.h>
-#include <progname.h>
 
 int rawflag = 0;
 int hexflag = 0;
