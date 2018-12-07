@@ -1276,7 +1276,7 @@ int main(int argc, char **argv)
 	  if (hexflag) {
 	      printf(" ");
 	  } else if (rawflag) {
-	      putc(0,stdout);  // ???
+	      //
 	  } else {
 	      puts("");
 	  }
