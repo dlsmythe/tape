@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (tape)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+include_directories ("${PROJECT_SOURCE_DIR}/../common")
+add_executable(tape tape.c ../common/asprintf.c ../common/bsderr.c ../common/getopt.c ../common/progname.c)
