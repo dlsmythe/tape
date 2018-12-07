@@ -1246,7 +1246,7 @@ void pchar(char c)
 
 void usage(void)
 {
-    fprintf(stderr, "usage: %s <msg>\n", get_progname());
+    fprintf(stderr, "usage: tape <word> [word ...]\n");
     exit(1);
 }
 
